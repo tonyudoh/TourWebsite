@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin:0;
+  scroll-behavior: scroll;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+color: #221314;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-left: 15px;   
+  padding-bottom: 15px;
+}
+
+.logo {
+   color: white;
+   cursor: pointer;
+   font-size: 35px;
+letter-spacing: 1px;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.thehome {
+  padding: 60px 60px;
+}
+
+
+nav ul li {
+display: inline;
+color: white-block;
+padding: 10px 25px;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+} 
+
+nav ul li a:hover {
+  color: sienna;
+  
+}
+
+.home-text h1 {
+  font-size: 6rem;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+.home-text p {
+  color: #ffffffbf;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-bottom: 50px;
+
+}
+
+.home-btn {
+  background-color: #ffffffbf;
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: #6e54fa;
+
+}
+
+.row-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(4, 250px);
+  text-align: center;
+ margin-top: 3rem; 
+}
+
+.container-box {
+  background-color: white;
+  border: 1px solid #f0eded;
+  padding: 50px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.container-img img {
+  height: 85px;
+  width: 85px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 5px 10px 30px #55555533;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container-box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.container-box p {
+  font-size: 15px;
+  color: #5a7184;
+}
+
+.text {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.text h2 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+/* our package section */
+.title{
+  text-align: center;
+}
+.title h2{
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.package-content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(3, 250px);
+  text-align: center;
+  margin-top: 3rem;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.thum{
+  position: relative;
+  cursor: pointer;
+}
+
+.thum img{
+  width: 400px;
+  height: 400px;
+}
+.thum h3{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600px;
+  top: 36px;
+  right: 40px;
+  color: white;
+
+}
+
+article h4{
+  font-size: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  margin: 300px;
+  gap: 20px;
+  grid-template-columns: repeat(3, 250px);
+  text-align: center;
+  margin-top: 3rem;
+}
+.thum2 img{
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.thum2{
+  position: relative;
+}
+.thum2 article{
+  color: white;
+}
+.thum2 article{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.thum2 .big{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+ .newsletter{
+margin: 250px
+} 
+.newsletter h1{
+  font-size: 40px;
+}
+.newsletter p{
+  color: #5a7184;
+}
+.newsletter form{
+  width: 500px;
+  position: relative;
+}
+.newsletter form input:first-child {
+  display: inline-block;
+  width: 61%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid lightslategray;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: #5a7184;
+}
+.news{
+  margin: 50px;
+}
+.newsletter form input:last-child {
+  background: rgb(52, 92, 170);
+  position: absolute;
+  display: inline;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  top: 6px;
+  right: 50px;
+}
+/* our package section ends */
+
+.quick-access{
+  margin: 100;
+  background-color: #6e54fa;
+  padding: 70px;
+}
+.quick-access1{
+display: flex;
+justify-content: center;
+}
+/* .quick-access1 h2{
+display: flex;
+justify-content: center;
+} */
+
+#footer p{
+text-align: right;
+}
+
+.footer p{
+  margin-top: 300px;
+  text-align: left;
+  width: 70%;
+  padding: 60px 0px;
+}
+
+.copy-right {
+margin-left: 270px;
+margin-bottom: 10px;
+}
+
+@media(max-width: 579px){
+  
+}
